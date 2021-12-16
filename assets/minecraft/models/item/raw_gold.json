@@ -1,0 +1,20 @@
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "minecraft:item/raw_iron"
+	},
+	"overrides": [
+		{"predicate": {"custom_model_data": 999}, "model": "ores:block/lead/lead"},
+		{"predicate": {"custom_model_data": 1000}, "model": "ores:block/lead/lead_0"},
+		{"predicate": {"custom_model_data": 1001}, "model": "ores:block/lead/lead_1"},
+		{"predicate": {"custom_model_data": 1002}, "model": "ores:block/lead/lead_2"},
+		{"predicate": {"custom_model_data": 1003}, "model": "ores:block/lead/lead_3"},
+		{"predicate": {"custom_model_data": 1004}, "model": "ores:block/lead/lead_4"},
+		{"predicate": {"custom_model_data": 1005}, "model": "ores:block/lead/lead_5"},
+		{"predicate": {"custom_model_data": 1006}, "model": "ores:block/lead/lead_6"},
+		{"predicate": {"custom_model_data": 1007}, "model": "ores:block/lead/lead_7"},
+		{"predicate": {"custom_model_data": 1008}, "model": "ores:block/lead/lead_8"},
+		{"predicate": {"custom_model_data": 1009}, "model": "ores:block/lead/lead_9"},
+		{"predicate": {"custom_model_data": 1010}, "model": "ores:item/lead/lead_glance"}
+	]
+}

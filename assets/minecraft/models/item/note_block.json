@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/note_block",
+  "overrides": [
+    {"predicate": {"custom_model_data": 1000}, "model": "ores:block/lead/lead_collector"}
+  ]
+}

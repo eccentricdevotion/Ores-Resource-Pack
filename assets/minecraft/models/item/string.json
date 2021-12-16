@@ -1,0 +1,11 @@
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "minecraft:item/string"
+	},
+	"overrides": [
+		{"predicate": {"custom_model_data": 1001}, "model": "ores:block/lead/straight_pipe"},
+		{"predicate": {"custom_model_data": 1002}, "model": "ores:block/lead/left_pipe"},
+		{"predicate": {"custom_model_data": 1003}, "model": "ores:block/lead/right_pipe"}
+	]
+}

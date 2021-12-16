@@ -1,0 +1,12 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "ores:block/uranium/uranium_5"
+    },
+	"display": {
+		"fixed": {
+			"translation": [0, 0, -15],
+			"scale": [2, 2, 2]
+		}
+	}
+}
