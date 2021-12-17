@@ -514,16 +514,16 @@
       "model": "minecraft:block/note_block"
     },
     "instrument=bit,note=21,powered=false": {
-      "model": "minecraft:block/note_block"
+      "model": "ores:block/lead/lead_collector_east"
     },
     "instrument=bit,note=22,powered=false": {
-      "model": "minecraft:block/note_block"
+      "model": "ores:block/lead/lead_collector_south"
     },
     "instrument=bit,note=23,powered=false": {
-      "model": "minecraft:block/note_block"
+      "model": "ores:block/lead/lead_collector_west"
     },
     "instrument=bit,note=24,powered=false": {
-      "model": "ores:block/lead/lead_collector"
+      "model": "ores:block/lead/lead_collector_north"
     },
     "instrument=bit,note=0,powered=true": {
       "model": "minecraft:block/note_block"
