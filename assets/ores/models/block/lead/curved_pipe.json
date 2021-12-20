@@ -1,7 +1,6 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "ores:block/lead/water_flow",
 		"1": "ores:block/lead/lead_pipe",
 		"2": "ores:block/lead/lead_bolt",
 		"particle": "ores:block/lead/lead_pipe"
@@ -565,76 +564,6 @@
 				"up": {"uv": [0, 1, 10, 0], "rotation": 270, "texture": "#1"},
 				"down": {"uv": [0, 1, 10, 0], "rotation": 90, "texture": "#1"}
 			}
-		},
-		{
-			"name": "water",
-			"from": [5, 2, 0],
-			"to": [11, 6, 4],
-			"rotation": {"angle": 0, "axis": "y", "origin": [16, 0, 0]},
-			"faces": {
-				"north": {"uv": [6, 0, 0, 4], "texture": "#0"},
-				"east": {"uv": [4, 0, 0, 4], "texture": "#missing"},
-				"south": {"uv": [6, 0, 0, 4], "rotation": 180, "texture": "#0"},
-				"west": {"uv": [4, 0, 0, 4], "texture": "#missing"},
-				"up": {"uv": [6, 0, 0, 4], "rotation": 180, "texture": "#0"},
-				"down": {"uv": [6, 0, 0, 4], "texture": "#missing"}
-			}
-		},
-		{
-			"name": "water",
-			"from": [5.5, 2, 1.5],
-			"to": [11.5, 6, 5.5],
-			"rotation": {"angle": -22.5, "axis": "y", "origin": [8, 4, 2]},
-			"faces": {
-				"north": {"uv": [6, 0, 0, 4], "texture": "#0"},
-				"east": {"uv": [4, 0, 0, 4], "texture": "#missing"},
-				"south": {"uv": [6, 0, 0, 4], "rotation": 180, "texture": "#0"},
-				"west": {"uv": [4, 0, 0, 4], "texture": "#missing"},
-				"up": {"uv": [6, 0, 0, 4], "rotation": 180, "texture": "#0"},
-				"down": {"uv": [6, 0, 0, 4], "texture": "#missing"}
-			}
-		},
-		{
-			"name": "water",
-			"from": [0.88791, 2, 3.57716],
-			"to": [4.88791, 6, 9.57716],
-			"rotation": {"angle": 22.5, "axis": "y", "origin": [7.88791, 4, 3.57716]},
-			"faces": {
-				"north": {"uv": [4, 0, 0, 4], "texture": "#missing"},
-				"east": {"uv": [6, 0, 0, 4], "texture": "#0"},
-				"south": {"uv": [4, 0, 0, 4], "texture": "#missing"},
-				"west": {"uv": [6, 0, 0, 4], "rotation": 180, "texture": "#0"},
-				"up": {"uv": [0, 4, 6, 0], "rotation": 90, "texture": "#0"},
-				"down": {"uv": [0, 4, 6, 0], "rotation": 90, "texture": "#missing"}
-			}
-		},
-		{
-			"name": "water",
-			"from": [5.38791, 2, 4.25216],
-			"to": [11.38791, 6, 8.90216],
-			"rotation": {"angle": -45, "axis": "y", "origin": [7.88791, 4, 3.57716]},
-			"faces": {
-				"north": {"uv": [6, 0, 0, 4], "texture": "#0"},
-				"east": {"uv": [4, 0, 0, 4], "texture": "#missing"},
-				"south": {"uv": [6, 0, 0, 4], "rotation": 180, "texture": "#0"},
-				"west": {"uv": [4, 0, 0, 4], "texture": "#missing"},
-				"up": {"uv": [6, 0, 0, 4], "rotation": 180, "texture": "#0"},
-				"down": {"uv": [6, 0, 0, 4], "texture": "#missing"}
-			}
-		},
-		{
-			"name": "water",
-			"from": [0, 2, 5],
-			"to": [4, 6, 11],
-			"rotation": {"angle": 0, "axis": "y", "origin": [8, 4, 8]},
-			"faces": {
-				"north": {"uv": [4, 0, 0, 4], "texture": "#missing"},
-				"east": {"uv": [6, 0, 0, 4], "texture": "#0"},
-				"south": {"uv": [4, 0, 0, 4], "texture": "#missing"},
-				"west": {"uv": [6, 0, 0, 4], "rotation": 180, "texture": "#0"},
-				"up": {"uv": [0, 4, 6, 0], "rotation": 90, "texture": "#0"},
-				"down": {"uv": [0, 4, 6, 0], "rotation": 90, "texture": "#missing"}
-			}
 		}
 	],
 	"display": {
@@ -716,12 +645,7 @@
 					"origin": [8, 5, 1],
 					"color": 0,
 					"children": [31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42]
-				},
-				43,
-				44,
-				45,
-				46,
-				47
+				}
 			]
 		}
 	]
